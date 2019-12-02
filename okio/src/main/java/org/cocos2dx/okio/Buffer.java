@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.Closeable;
 import java.io.EOFException;
@@ -33,8 +33,8 @@ import javax.annotation.Nullable;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
-import static okio.Util.checkOffsetAndCount;
-import static okio.Util.reverseBytesLong;
+import static org.cocos2dx.okio.Util.checkOffsetAndCount;
+import static org.cocos2dx.okio.Util.reverseBytesLong;
 
 /**
  * A collection of bytes in memory.

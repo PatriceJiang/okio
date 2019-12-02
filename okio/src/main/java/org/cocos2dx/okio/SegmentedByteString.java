@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -21,8 +21,8 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 
-import static okio.Util.arrayRangeEquals;
-import static okio.Util.checkOffsetAndCount;
+import static org.cocos2dx.okio.Util.arrayRangeEquals;
+import static org.cocos2dx.okio.Util.checkOffsetAndCount;
 
 /**
  * An immutable byte string composed of segments of byte arrays. This class exists to implement

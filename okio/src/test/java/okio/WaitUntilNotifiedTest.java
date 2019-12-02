@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.InterruptedIOException;
 import java.util.concurrent.Executors;
@@ -65,7 +65,7 @@ public final class WaitUntilNotifiedTest {
 
   @Test public synchronized void deadline() throws Exception {
     Timeout timeout = new Timeout();
-    timeout.deadline(1000, TimeUnit.MILLISECONDS);
+    timeout.deadline(2000, TimeUnit.MILLISECONDS);
     double start = now();
     try {
       timeout.waitUntilNotified(this);
@@ -73,7 +73,7 @@ public final class WaitUntilNotifiedTest {
     } catch (InterruptedIOException expected) {
       assertEquals("timeout", expected.getMessage());
     }
-    assertElapsed(1000.0, start);
+    assertElapsed(2000.0, start);
   }
 
   @Test public synchronized void deadlineBeforeTimeout() throws Exception {

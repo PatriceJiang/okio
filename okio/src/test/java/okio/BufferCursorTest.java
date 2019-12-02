@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,9 +25,9 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
-import static okio.Buffer.UnsafeCursor;
-import static okio.TestUtil.bufferWithRandomSegmentLayout;
-import static okio.TestUtil.bufferWithSegments;
+import static org.cocos2dx.okio.Buffer.UnsafeCursor;
+import static org.cocos2dx.okio.TestUtil.bufferWithRandomSegmentLayout;
+import static org.cocos2dx.okio.TestUtil.bufferWithSegments;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;

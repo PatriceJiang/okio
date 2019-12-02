@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import org.junit.Test;
 
-import static okio.TestUtil.assertEquivalent;
-import static okio.TestUtil.bufferWithSegments;
+import static org.cocos2dx.okio.TestUtil.assertEquivalent;
+import static org.cocos2dx.okio.TestUtil.bufferWithSegments;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

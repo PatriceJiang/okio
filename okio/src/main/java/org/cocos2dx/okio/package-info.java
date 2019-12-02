@@ -3,4 +3,4 @@
  * and process your data.
  */
 @javax.annotation.ParametersAreNonnullByDefault
-package okio;
+package org.cocos2dx.okio;

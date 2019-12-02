@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -26,7 +26,7 @@ import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 import org.junit.Test;
 
-import static okio.TestUtil.randomSource;
+import static org.cocos2dx.okio.TestUtil.randomSource;
 import static org.junit.Assert.assertEquals;
 
 /** Slow running tests that run a large amount of data through a stream. */

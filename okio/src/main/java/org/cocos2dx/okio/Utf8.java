@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 /**
  * Okio assumes most applications use UTF-8 exclusively, and offers optimized implementations of

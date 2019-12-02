@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import org.junit.Test;
 
-import static okio.HashingTest.HMAC_KEY;
-import static okio.HashingTest.HMAC_SHA1_abc;
-import static okio.HashingTest.HMAC_SHA256_abc;
-import static okio.HashingTest.MD5_abc;
-import static okio.HashingTest.SHA1_abc;
-import static okio.HashingTest.SHA256_abc;
-import static okio.HashingTest.SHA256_def;
-import static okio.HashingTest.SHA256_r32k;
-import static okio.HashingTest.r32k;
+import static org.cocos2dx.okio.HashingTest.HMAC_KEY;
+import static org.cocos2dx.okio.HashingTest.HMAC_SHA1_abc;
+import static org.cocos2dx.okio.HashingTest.HMAC_SHA256_abc;
+import static org.cocos2dx.okio.HashingTest.MD5_abc;
+import static org.cocos2dx.okio.HashingTest.SHA1_abc;
+import static org.cocos2dx.okio.HashingTest.SHA256_abc;
+import static org.cocos2dx.okio.HashingTest.SHA256_def;
+import static org.cocos2dx.okio.HashingTest.SHA256_r32k;
+import static org.cocos2dx.okio.HashingTest.r32k;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

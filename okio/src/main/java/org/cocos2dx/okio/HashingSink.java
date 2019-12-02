@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.IOException;
 import java.security.InvalidKeyException;
@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
-import static okio.Util.checkOffsetAndCount;
+import static org.cocos2dx.okio.Util.checkOffsetAndCount;
 
 /**
  * A sink that computes a hash of the full stream of bytes it has accepted. To use, create an

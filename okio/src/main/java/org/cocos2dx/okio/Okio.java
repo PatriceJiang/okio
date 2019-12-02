@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -33,7 +33,7 @@ import java.util.logging.Logger;
 import javax.annotation.Nullable;
 import org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement;
 
-import static okio.Util.checkOffsetAndCount;
+import static org.cocos2dx.okio.Util.checkOffsetAndCount;
 
 /** Essential APIs for working with Okio. */
 public final class Okio {

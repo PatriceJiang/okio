@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okio;
+package org.cocos2dx.okio;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.Nullable;
 
-import static okio.Util.checkOffsetAndCount;
+import static org.cocos2dx.okio.Util.checkOffsetAndCount;
 
 /**
  * This timeout uses a background thread to take action exactly when the timeout occurs. Use this to
